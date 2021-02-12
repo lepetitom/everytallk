@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-28 19:17:13+0000\n"
+"PO-Revision-Date: 2021-02-06 07:52:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,25 +51,25 @@ msgstr "PHP is de programmeertaal waarmee WordPress wordt gebouwd en onderhouden
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
 msgstr "Je site schijnt basis authenticatie te gebruiken, wat op dit moment niet compatibel is met applicatie wachtwoorden."
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:260
 msgid "https://wordpress.org/plugins/enable-jquery-migrate-helper/"
 msgstr "https://wordpress.org/plugins/enable-jquery-migrate-helper/"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:249
 msgid "https://wordpress.org/plugins/wp-jquery-update-test/"
 msgstr "https://wordpress.org/plugins/wp-jquery-update-test/"
 
 #. translators: 1: WordPress accessibility-ready guidelines link, 2: WCAG
 #. information link.
-#: wp-admin/about.php:123
+#: wp-admin/about.php:156
 msgid "What’s more, this default theme puts accessibility at the heart of your website. It conforms to the <a href=\"%1$s\">WordPress accessibility-ready guidelines</a> and addresses several more specialized standards from the <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. It will help you meet the highest level of international accessibility standards when you create accessible content and choose plugins which are accessible too!"
 msgstr "Aanvullend, dit standaardthema zet de toegankelijkheid in het hart van je site. Het voldoet aan de <a href=\"%1$s\">WordPress accessibility-ready</a> richtlijnen en behandeld verschillende meer gespecialiseerde normen van de <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. Het helpt je te voldoen aan het hoogste niveau van internationale toegankelijkheidsnormen wanneer je toegankelijke inhoud maakt en plugins kiest die ook toegankelijk zijn!"
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:124
 msgid "To help you add subtitles or captions to your videos, you can now upload them within your post or page. This makes it easier than ever to make your videos accessible for anyone who needs or prefers to use subtitles."
 msgstr "Om je te helpen ondertiteling of bijschriften toe te voegen aan je video's, kan je ze nu uploaden in je bericht of pagina. Dit maakt het makkelijker dan ooit om video's toegankelijk te maken voor iedereen die ondertiteling nodig heeft of hiervoor de voorkeur voor heeft."
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:123
 msgid "Upload video captions directly in the block editor"
 msgstr "Upload videobijschriften direct in de blokeditor"
 
@@ -78,99 +78,99 @@ msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
 #. translators: %s: WordPress 5.6 Field Guide link.
-#: wp-admin/about.php:243
+#: wp-admin/about.php:276
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.6 Field Guide.</a>"
 msgstr "Bekijk de nieuwste versie van de WordPress Field Guide. Het heeft opmerkingen van ontwikkelaars voor elke wijziging waarvan je op de hoogte wil zijn: <a href=\"%s\">WordPress 5.6 Field Guide</a>."
 
 #. translators: %s: jQuery Migrate plugin link.
-#: wp-admin/about.php:224
+#: wp-admin/about.php:257
 msgid "If you find issues with the way your site looks (e.g. a slider doesn’t work, a button is stuck — that sort of thing), install the <a href=\"%s\">jQuery Migrate plugin</a>."
 msgstr "Als je problemen hebt met de manier waarop je site er uitziet (bijv. een slider werkt niet, een knop zit vast - dat soort dingen), installeer dan de <a href=\"%s\">jQuery Migrate plugin</a>."
 
 #. translators: %s: jQuery update test plugin link.
-#: wp-admin/about.php:213
+#: wp-admin/about.php:246
 msgid "Updates to jQuery in WordPress take place across three releases: 5.5, 5.6, and 5.7. As we reach the mid-point of this process, run the <a href=\"%s\">update test plugin</a> to check your sites for errors ahead of time."
 msgstr "Updates voor jQuery in WordPress vinden plaats in drie releases:5.5, 5.6 en 5.7. Als we het midden van dit proces hebben bereikt, voer je de <a href=\"%s\">update test plugin</a> uit om je sites van tevoren op fouten te controleren."
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:241
 msgid "jQuery"
 msgstr "jQuery"
 
 #. translators: %s: WordPress and PHP 8 dev note link.
-#: wp-admin/about.php:199
+#: wp-admin/about.php:232
 msgid "5.6 marks the first steps toward WordPress Core support for PHP 8. Now is a great time to start planning how your WordPress products, services and sites can support the latest PHP version. For more information about what to expect next, <a href=\"%s\">read the PHP 8 developer note</a>."
 msgstr "5.6 markeert de eerste stappen in de richting van WordPress Core ondersteuning voor PHP 8. Dit is een goed moment om te plannen hoe je WordPress producten, diensten en sites de nieuwste PHP-versie kunnen ondersteunen. Voor meer informatie over wat je kan verwachten, <a href=\"%s\">lees de PHP 8 ontwikkelaar notitie</a>."
 
-#: wp-admin/about.php:194
+#: wp-admin/about.php:227
 msgid "More PHP 8 support"
 msgstr "Meer ondersteuning voor PHP 8"
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:224
 msgid "Thanks to the API’s new Application Passwords authorization feature, third-party apps can connect to your site seamlessly and securely. This new REST API feature lets you see what apps are connecting to your site and control what they do."
 msgstr "Dankzij de nieuwe autorisatiefunctie voor Application Passwords van de API kunnen apps van derden naadloos en veilig verbinding maken met je site. Met deze nieuwe REST API functie kan je zien welke apps verbinding maken met je site en bepalen wat ze doen."
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:223
 msgid "REST API authentication with Application Passwords"
 msgstr "REST API authenticatie met applicatie wachtwoorden"
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:214
 msgid "If you’ve not had the chance to play with block patterns yet, all default themes now feature a range of block patterns that let you master complex layouts with minimal effort. Customize the patterns to your liking with the copy, images and colors that fit your story or brand."
 msgstr "Als je nog niet de kans hebt gehad om met blokpatronen te spelen, hebben alle standaardthema's nu een reeks blokpatronen waarmee je complexe lay-outs met minimale inspanning onder de knie kunt krijgen. Pas de patronen naar wens aan met de tekst, afbeeldingen en kleuren die bij je verhaal of merk passen."
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:213
 msgid "Built-in patterns"
 msgstr "Ingebouwde patronen"
 
 #. translators: %s: Accessibility statement feature plugin link.
-#: wp-admin/about.php:173
+#: wp-admin/about.php:206
 msgid "Even if you’re not an expert, you can start letting folks know about your site’s commitment to accessibility at the click of a button! The new <a href=\"%s\">feature plugin</a> includes template copy for you to update and publish, and it’s written to support different contexts and jurisdictions."
 msgstr "Zelfs als je geen expert bent, kun je mensen met een klik op de knop laten weten dat je site zich inzet voor toegankelijkheid! De nieuwe <a href=\"%s\">functie plugin</a> bevat een template kopie die je kan updaten en publiceren, en het is geschreven om verschillende contexten en rechtsgebieden te ondersteunen."
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:201
 msgid "Accessibility statement template"
 msgstr "Template voor toegankelijkheidsverklaring"
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:198
 msgid "For years, only developers have been able to update WordPress automatically. But now, you have that option, right in your dashboard. If this is your first site, you have auto-updates ready to go, right now! Upgrading an existing site? No problem! Everything is the same as it was before."
 msgstr "Jarenlang konden alleen ontwikkelaars WordPress automatisch updaten. Maar nu heb je die optie, rechtstreeks in je dashboard. Als dit je eerste site is, heb je nu auto-updates klaar voor gebruik! Een bestaande site upgraden? Geen probleem! Alles is hetzelfde als voorheen."
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:197
 msgid "Expanding auto-updates"
 msgstr "Auto-updates uitgebreid"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:176
 msgid "Need more flexibility than that? You can also choose your own color palette from the color picker."
 msgstr "Meer flexibiliteit nodig dan dat? Je kunt ook je eigen kleurenpalet kiezen uit de kleurenkiezer."
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:175
 msgid "Perfect for a new year, Twenty Twenty-One gives you a range of pre-selected color palettes in pastel, all of which meet AAA standards for contrast. You can also choose your own background color for the theme, and the theme chooses accessibility-conscious text colors for you — automatically!"
 msgstr "Twenty Twenty-One is perfect voor een nieuw jaar en biedt je een reeks vooraf geselecteerde kleurenpaletten in pastelkleuren, die allemaal voldoen aan de AAA-normen voor contrast. Je kan ook je eigen achtergrondkleur voor het thema kiezen, en het thema kiest automatisch bewust toegankelijke tekstkleuren voor je!"
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:172
 msgid "A rainbow of soft pastels"
 msgstr "Een regenboog van zachte pastelkleuren"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:135
 msgid "Twenty Twenty-One is a blank canvas for your ideas, and the block editor is the best brush. It is built for the block editor and packed with brand-new block patterns you can only get in the default themes. Try different layouts in a matter of seconds, and let the theme’s eye-catching, yet timeless design make your work shine."
 msgstr "Twenty Twenty-One is een leeg canvas voor je ideeën en de blok-editor is het beste penseel. Het is gebouwd voor de blok-editor en zit boordevol gloednieuwe blokpatronen die je alleen in de standaardthema's kunt krijgen. Probeer binnen enkele seconden verschillende lay-outs uit en laat het opvallende, maar tijdloze ontwerp van het thema je werk doen stralen."
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:132
 msgid "Twenty Twenty-One is here!"
 msgstr "Twenty Twenty-One is er!"
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:118
 msgid "In select themes, preconfigured block patterns make setting up standard pages on your site a breeze. Find the power of patterns to streamline your workflow, or share some of that power with your clients and save yourself a few clicks."
 msgstr "In geselecteerde thema's maken voor-geconfigureerde blokpatronen het opzetten van standaardpagina's op je site een fluitje van een cent. Ontdek de kracht van patronen om je workflow te stroomlijnen, of deel een deel van die kracht met je klanten en bespaar jezelf een paar klikken."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:117
 msgid "More block patterns"
 msgstr "Meer blokpatronen"
 
-#: wp-admin/about.php:78
+#: wp-admin/about.php:111
 msgid "Bring your stories to life with more tools that let you edit your layout with or without code. Single column blocks, designs using mixed widths and columns, full-width headers, and videos in your cover block—make small changes or big statements with equal ease!"
 msgstr "Breng je verhalen tot leven met meer gereedschappen waarmee je je lay-out met of zonder code kunt bewerken. Blokken met één kolom, ontwerpen met verschillende breedtes en kolommen, headers over de volledige breedte en video's in je cover blok—breng met hetzelfde gemak kleine wijzigingen of grote uitspraken aan!"
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:110
 msgid "Greater layout flexibility"
 msgstr "Meer flexibiliteit in de lay-out"
 
@@ -256,7 +256,7 @@ msgstr "Nieuw applicatie wachtwoord toevoegen"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Vereist om een applicatie wachtwoord aan te maken, maar niet om de gebruiker te updaten."
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Updates"
 msgstr "Ga naar updates"
 
@@ -398,7 +398,7 @@ msgstr "Typ het wachtwoord opnieuw."
 #. necessary.
 #: wp-admin/update-core.php:130
 msgid "You can update from WordPress %1$s to <a href=\"%2$s\">WordPress %3$s</a> manually:"
-msgstr "Je kunt handmatig updaten van WordPress %1$s naar<a href=\"%2$s\">WordPress %3$s</a>:"
+msgstr "Je kunt handmatig updaten van WordPress %1$s naar <a href=\"%2$s\">WordPress %3$s</a>:"
 
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:159
 msgid "Revoke all application passwords"
@@ -651,7 +651,7 @@ msgstr "De \"%1$s\" waarde is kleiner dan \"%2$s\"."
 msgid "Environment type"
 msgstr "Type omgeving"
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:271
 msgid "Check the Field Guide for more!"
 msgstr "Bekijk de Field Guide voor meer informatie!"
 
@@ -2179,7 +2179,7 @@ msgstr "%1$s moet een %2$s object zijn."
 msgid "You are in recovery mode. This means there may be an error with a theme or plugin. To exit recovery mode, log out or use the Exit button. <a href=\"%s\">Exit Recovery Mode</a>"
 msgstr "Je bevindt je in herstel mode. Dit betekent dat er een probleem kan zijn met een thema of plugin. Om herstel mode te verlaten, log uit of gebruik de sluit knop. <a href=\"%s\">Sluit herstel mode</a>"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:191
 msgid "Improvements for everyone"
 msgstr "Verbeteringen voor iedereen"
 
@@ -3741,8 +3741,9 @@ msgid "Cannot Install"
 msgstr "Kan niet installeren"
 
 #. translators: %s: WordPress version.
+#. translators: %s: WordPress version
 #: wp-admin/includes/update.php:305 wp-admin/install.php:238
-#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80
+#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80 wp-admin/about.php:96
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -6185,7 +6186,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Nu ingesteld op: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:279
+#: wp-admin/about.php:312
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Versie %s</strong> heeft één beveiligingsprobleem opgelost."
 
@@ -6197,15 +6198,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Profielfoto"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:309
 msgid "Maintenance and Security Releases"
 msgstr "Onderhoud en beveiliging releases"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:306
 msgid "Security Releases"
 msgstr "Beveiligingsreleases"
 
-#: wp-admin/about.php:270
+#: wp-admin/about.php:303
 msgid "Maintenance Releases"
 msgstr "Onderhoudsreleases"
 
@@ -9697,14 +9698,15 @@ msgstr "Vul het e-mailadres in van een bestaande gebruiker op dit netwerk om een
 msgid "Show Toolbar when viewing site"
 msgstr "Toolbar tonen tijdens bekijken van de site"
 
+#. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:302
+#: wp-admin/about.php:93 wp-admin/about.php:335
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Voor meer informatie, bekijk <a href=\"%s\">de versie opmerkingen</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:296
+#: wp-admin/about.php:329
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> heeft enkele beveiligingsproblemen verholpen en %2$s bug opgelost."
@@ -9712,14 +9714,14 @@ msgstr[1] "<strong>Versie %1$s</strong> heeft enkele beveiligingsproblemen verho
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:290
+#: wp-admin/about.php:323
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> loste een beveiligingsprobleem op en loste %2$s bug op."
 msgstr[1] "<strong>Versie %1$s</strong> loste een beveiligingsprobleem op en loste %2$s bugs op."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:284
+#: wp-admin/about.php:81 wp-admin/about.php:317
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> bevat %2$s bugfix."
@@ -9730,19 +9732,19 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Welkom bij je WordPress Dashboard. Dit is het scherm dat je krijgt te zien zodra je inlogt op je site. Het geeft je toegang tot alle beheerfuncties van WordPress. Wanneer je klikt op de Hulp tab rechtsboven de schermtitel, krijg je meer informatie te zien over de functionaliteiten en werking van het betreffende onderdeel. "
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:281
+#: wp-admin/about.php:314
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Versie %s</strong> loste enkele beveiligingsproblemen op."
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:308
 msgid "Maintenance and Security Release"
 msgstr "Onderhoud en beveiliging versie"
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:305
 msgid "Security Release"
 msgstr "Beveiligingsversie"
 
-#: wp-admin/about.php:269
+#: wp-admin/about.php:76 wp-admin/about.php:302
 msgid "Maintenance Release"
 msgstr "Onderhoudsversie"
 
@@ -10034,11 +10036,11 @@ msgstr "Omdat dit een multisite installatie is, kun je accounts toevoegen die al
 msgid "Welcome to WordPress %s."
 msgstr "Welkom bij WordPress %s."
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:292
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Ga naar Dashboard &rarr; Home"
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Ga naar Dashboard &rarr; Updates"
 
@@ -10046,7 +10048,7 @@ msgstr "Ga naar Dashboard &rarr; Updates"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress is gemaakt door een wereldwijd team van enthousiaste en gepassioneerde mensen."
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:221
 msgid "For developers"
 msgstr "Voor ontwikkelaars"
 
@@ -11875,7 +11877,7 @@ msgstr "WordPress updates"
 msgid "Edit menu item"
 msgstr "Menu-item bewerken"
 
-#: wp-admin/about.php:259 wp-admin/includes/network.php:148
+#: wp-admin/about.php:292 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Naar het dashboard"
 

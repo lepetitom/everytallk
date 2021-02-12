@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-28 19:28:29+0000\n"
+"PO-Revision-Date: 2021-02-10 16:31:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,25 +51,25 @@ msgstr "PHP est le langage de programmation utilisé pour construire et mainteni
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
 msgstr "Votre site semble utiliser l’authentification basique, qui n’est pas compatible avec les mots de passe d’application."
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:260
 msgid "https://wordpress.org/plugins/enable-jquery-migrate-helper/"
 msgstr "https://fr.wordpress.org/plugins/enable-jquery-migrate-helper/"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:249
 msgid "https://wordpress.org/plugins/wp-jquery-update-test/"
 msgstr "https://fr.wordpress.org/plugins/wp-jquery-update-test/"
 
 #. translators: 1: WordPress accessibility-ready guidelines link, 2: WCAG
 #. information link.
-#: wp-admin/about.php:123
+#: wp-admin/about.php:156
 msgid "What’s more, this default theme puts accessibility at the heart of your website. It conforms to the <a href=\"%1$s\">WordPress accessibility-ready guidelines</a> and addresses several more specialized standards from the <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. It will help you meet the highest level of international accessibility standards when you create accessible content and choose plugins which are accessible too!"
 msgstr "De plus, ce thème par défaut place l’accessibilité au cœur de votre site. Il est conforme aux <a href=\"%1$s\" lang=\"en\">Règles d’accessibilité de WordPress</a> et se plie à la plupart des règles de standards tels que les <a href=\"%2$s\" lang=\"en\">Règles pour l’accessibilité des contenus web (WCAG) 2.1 au niveau AAA</a>. Cela vous aidera a atteindre les plus haut niveaux des standards internationaux d’accessibilité… dans la mesure ou vous créerez des contenus accessibles et où vous choisirez des extensions également accessibles !"
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:124
 msgid "To help you add subtitles or captions to your videos, you can now upload them within your post or page. This makes it easier than ever to make your videos accessible for anyone who needs or prefers to use subtitles."
 msgstr "Pour vous aider à ajouter des sous-titres ou des légendes à vos vidéos, vous pouvez désormais les téléverser dans vos articles et vos pages. Il est maintenant très simple de rendre vos vidéos accessibles à toute personne ayant besoin ou préférant utiliser des sous-titres."
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:123
 msgid "Upload video captions directly in the block editor"
 msgstr "Téléversement de sous-titrage vidéo directement dans l’éditeur"
 
@@ -78,99 +78,99 @@ msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
 #. translators: %s: WordPress 5.6 Field Guide link.
-#: wp-admin/about.php:243
+#: wp-admin/about.php:276
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.6 Field Guide.</a>"
 msgstr "Consultez le guide des changements techniques de WordPress 5.6. Il met en avant les notes de développement de chaque modification que vous souhaiteriez connaître : <a href=\"%s\">Guide des changements techniques de WordPress 5.6</a>"
 
 #. translators: %s: jQuery Migrate plugin link.
-#: wp-admin/about.php:224
+#: wp-admin/about.php:257
 msgid "If you find issues with the way your site looks (e.g. a slider doesn’t work, a button is stuck — that sort of thing), install the <a href=\"%s\">jQuery Migrate plugin</a>."
 msgstr "Si vous rencontrez des problèmes d’affichage sur votre site (ex : un diaporama qui ne fonctionne plus, un bouton qui n’a aucun effet), installez <a href=\"%s\">l’extension jQuery Migrate</a>."
 
 #. translators: %s: jQuery update test plugin link.
-#: wp-admin/about.php:213
+#: wp-admin/about.php:246
 msgid "Updates to jQuery in WordPress take place across three releases: 5.5, 5.6, and 5.7. As we reach the mid-point of this process, run the <a href=\"%s\">update test plugin</a> to check your sites for errors ahead of time."
 msgstr "La mise à jour de la bibliothèque jQuery se déroule sur trois versions de WordPress : 5.5, 5.6 et 5.7. Comme nous arrivons à mi-chemin du processus, vous pouvez lancer <a href=\"%s\">l’extension de test de mise à jour</a> pour vérifier par avance d’éventuelles erreurs sur vos sites."
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:241
 msgid "jQuery"
 msgstr "jQuery"
 
 #. translators: %s: WordPress and PHP 8 dev note link.
-#: wp-admin/about.php:199
+#: wp-admin/about.php:232
 msgid "5.6 marks the first steps toward WordPress Core support for PHP 8. Now is a great time to start planning how your WordPress products, services and sites can support the latest PHP version. For more information about what to expect next, <a href=\"%s\">read the PHP 8 developer note</a>."
 msgstr "WordPress 5.6 marque le premier pas vers la prise en charge de PHP 8 par WordPress. Il est grand temps de commencer à planifier la façon dont vos produits, services et sites tournant sur WordPress prennent en charge la dernière version de PHP. Pour plus d’information, lisez <a href=\"%s\">la note de développement concernant PHP 8</a>."
 
-#: wp-admin/about.php:194
+#: wp-admin/about.php:227
 msgid "More PHP 8 support"
 msgstr "Une meilleure prise en charge de PHP 8"
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:224
 msgid "Thanks to the API’s new Application Passwords authorization feature, third-party apps can connect to your site seamlessly and securely. This new REST API feature lets you see what apps are connecting to your site and control what they do."
 msgstr "Grâce à la nouvelle API de mots de passe d’application, les applications tierces peuvent se connecter de façon transparente et sécurisée à votre site. Cette nouvelle fonctionnalité de l’API REST vous permet de surveiller les applications qui se connectent à votre site et de contrôler ce qu’elles font."
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:223
 msgid "REST API authentication with Application Passwords"
 msgstr "Authentification sur l’API REST avec les mots de passe d’application"
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:214
 msgid "If you’ve not had the chance to play with block patterns yet, all default themes now feature a range of block patterns that let you master complex layouts with minimal effort. Customize the patterns to your liking with the copy, images and colors that fit your story or brand."
 msgstr "Si vous n’avez pas encore eu l’occasion de jouer avec les compositions de blocs, sachez que tous les thèmes natifs comprennent maintenant une sélection de compositions de blocs qui vous permet de créer des mises en pages complexes. Ces compositions peuvent être personnalisées à votre gré avec les textes, images ou couleurs qui conviennent à votre contenu ou à vos image de marque."
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:213
 msgid "Built-in patterns"
 msgstr "Des compositions intégrées"
 
 #. translators: %s: Accessibility statement feature plugin link.
-#: wp-admin/about.php:173
+#: wp-admin/about.php:206
 msgid "Even if you’re not an expert, you can start letting folks know about your site’s commitment to accessibility at the click of a button! The new <a href=\"%s\">feature plugin</a> includes template copy for you to update and publish, and it’s written to support different contexts and jurisdictions."
 msgstr "Même sans disposer d’une grande expertise à ce sujet, vous pouvez faire connaître les engagements pris par votre site en terme d’accessibilité juste en cliquant sur un bouton. Une nouvelle <a href=\"%s\">extension de fonctionnalité</a> comprend un modèle de texte que vous n’avez qu’à réadapter et publier. Celui-ci a été écrit pour prendre en charge différents contextes et juridictions."
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:201
 msgid "Accessibility statement template"
 msgstr "Modèle de déclaration d’accessibilité"
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:198
 msgid "For years, only developers have been able to update WordPress automatically. But now, you have that option, right in your dashboard. If this is your first site, you have auto-updates ready to go, right now! Upgrading an existing site? No problem! Everything is the same as it was before."
 msgstr "Depuis des années, les mises à jour automatiques de WordPress n’étaient accessible que via un développement spécifique. Maintenant, cette option est disponible directement dans votre tableau de bord. Si cela est votre premier site, les mises à jour automatiques sont déjà en place. Si vous avez mis à jour un site existant déjà alors tout est resté comme avant. L’option d’activation/désactivation des mises à jour automatiques est disponible sur l’écran Tableau de bord > Mises à jour."
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:197
 msgid "Expanding auto-updates"
 msgstr "Extension des mises à jour automatiques"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:176
 msgid "Need more flexibility than that? You can also choose your own color palette from the color picker."
 msgstr "Besoin de plus de flexibilité que cela ? Vous pouvez également choisir votre propre palette de couleurs à partir du sélecteur de couleurs."
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:175
 msgid "Perfect for a new year, Twenty Twenty-One gives you a range of pre-selected color palettes in pastel, all of which meet AAA standards for contrast. You can also choose your own background color for the theme, and the theme chooses accessibility-conscious text colors for you — automatically!"
 msgstr "Parfait pour la nouvelle année, Twenty Twenty-One vous propose une palette de couleurs pastel présélectionnées, toutes conformes aux normes de contraste AAA. Vous pouvez également choisir votre propre couleur d’arrière-plan pour le thème, et le thème choisit pour vous des couleurs de texte adaptées à l’accessibilité - automatiquement !"
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:172
 msgid "A rainbow of soft pastels"
 msgstr "Un arc-en-ciel de couleurs pastel"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:135
 msgid "Twenty Twenty-One is a blank canvas for your ideas, and the block editor is the best brush. It is built for the block editor and packed with brand-new block patterns you can only get in the default themes. Try different layouts in a matter of seconds, and let the theme’s eye-catching, yet timeless design make your work shine."
 msgstr "Twenty Twenty-One est une toile vierge pour exprimer vos idées, et l’éditeur de blocs sera votre meilleur pinceau. Ce thème est construit pour l’éditeur de blocs et embarque de nouvelles compositions de blocs dédiées. Essayez différentes mises en page en quelques secondes, et laissez le design intemporel de ce thème faire briller vos contenus."
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:132
 msgid "Twenty Twenty-One is here!"
 msgstr "Twenty Twenty-One est là !"
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:118
 msgid "In select themes, preconfigured block patterns make setting up standard pages on your site a breeze. Find the power of patterns to streamline your workflow, or share some of that power with your clients and save yourself a few clicks."
 msgstr "Les compositions de blocs pré-configurées sur les thèmes facilitent la mise en place de pages standards sur votre site. Testez la force des compositions pour rendre votre flux de travail plus efficace et partagez cela facilement en vous épargnant quelques clics."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:117
 msgid "More block patterns"
 msgstr "Plus de compositions de blocs"
 
-#: wp-admin/about.php:78
+#: wp-admin/about.php:111
 msgid "Bring your stories to life with more tools that let you edit your layout with or without code. Single column blocks, designs using mixed widths and columns, full-width headers, and videos in your cover block—make small changes or big statements with equal ease!"
 msgstr "Donnez vie à vos histoires avec encore plus d’outils pour modifier vos mises en page avec ou sans code. Blocs avec une seule colonne, mises en page utilisant des largeurs mixtes et des colonnes, en-têtes en pleine largeur, bannières vidéos… faites de petits changement ou révolutionnez vos mises en page avec une simplicité égale."
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:110
 msgid "Greater layout flexibility"
 msgstr "Une plus grande flexibilité de mise en page"
 
@@ -256,7 +256,7 @@ msgstr "Ajouter un nouveau mot de passe d’application"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Nécessaire pour créer un mot de passe d’application, mais pas pour mettre à jour le compte."
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Updates"
 msgstr "Aller aux mises à jour"
 
@@ -651,7 +651,7 @@ msgstr "La valeur « %1$s » est inférieure à « %2$s »."
 msgid "Environment type"
 msgstr "Type d’environnement"
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:271
 msgid "Check the Field Guide for more!"
 msgstr "Consultez le guide de la version pour en savoir plus !"
 
@@ -1711,7 +1711,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\" ta
 
 #: wp-admin/user-edit.php:71
 msgid "<a href=\"https://wordpress.org/support/article/users-your-profile-screen/\">Documentation on User Profiles</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/users-your-profile-screen/\">Documentation sur les profils des comptes (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/users-your-profile-screen/\">Documentation sur les profils des comptes</a>"
 
 #: wp-admin/options-media.php:37
 msgid "<a href=\"https://wordpress.org/support/article/settings-media-screen/\">Documentation on Media Settings</a>"
@@ -1772,7 +1772,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\">Do
 
 #: wp-admin/edit-comments.php:195
 msgid "<a href=\"https://wordpress.org/support/article/comment-spam/\">Documentation on Comment Spam</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/comment-spam/\">Documentation sur les commentaires indésirables (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/comment-spam/\">Documentation sur les commentaires indésirables</a>"
 
 #: wp-admin/plugins.php:587
 msgid "<a href=\"https://wordpress.org/support/article/managing-plugins/\">Documentation on Managing Plugins</a>"
@@ -1806,7 +1806,7 @@ msgstr "https://wordpress.org/support/article/using-permalinks/"
 
 #: wp-admin/options-permalink.php:61
 msgid "<a href=\"https://wordpress.org/support/article/using-permalinks/\">Documentation on Using Permalinks</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/using-permalinks/\">Documentation sur l’utilisation des permaliens (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/using-permalinks/\">Documentation sur l’utilisation des permaliens</a>"
 
 #: wp-admin/options-permalink.php:60
 msgid "<a href=\"https://wordpress.org/support/article/settings-permalinks-screen/\">Documentation on Permalinks Settings</a>"
@@ -2069,11 +2069,11 @@ msgstr "<a href=\"https://wordpress.org/support/article/settings-writing-screen/
 
 #: wp-admin/edit-tags.php:311
 msgid "<a href=\"https://wordpress.org/support/article/posts-tags-screen/\">Documentation on Tags</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/posts-tags-screen/\">Documentation sur les étiquettes (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/posts-tags-screen/\">Documentation sur les étiquettes</a>"
 
 #: wp-admin/edit-tags.php:307
 msgid "<a href=\"https://wordpress.org/support/article/posts-categories-screen/\">Documentation on Categories</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/posts-categories-screen/\">Documentation sur les catégories (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/posts-categories-screen/\">Documentation sur les catégories</a>"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/options-reading.php:170
@@ -2086,7 +2086,7 @@ msgstr "Dans chaque publication du flux, inclure"
 
 #: wp-admin/options-reading.php:144
 msgid "<strong>Warning:</strong> these pages should not be the same as your Privacy Policy page!"
-msgstr "<strong>Avertissement : </strong> ces pages ne doivent pas être les mêmes que votre page de politique de confidentialité !"
+msgstr "<strong>Avertissement : </strong> ces pages ne doivent pas être les mêmes que votre page de politique de confidentialité !"
 
 #: wp-admin/options-reading.php:52
 msgid "<a href=\"https://wordpress.org/support/article/settings-reading-screen/\">Documentation on Reading Settings</a>"
@@ -2179,7 +2179,7 @@ msgstr "%1$s doit être un objet %2$s."
 msgid "You are in recovery mode. This means there may be an error with a theme or plugin. To exit recovery mode, log out or use the Exit button. <a href=\"%s\">Exit Recovery Mode</a>"
 msgstr "Vous êtes en mode de récupération. Cela signifie qu’il pourrait y avoir une erreur avec un thème ou une extension. Pour sortir du mode de récupération, déconnectez vous ou utilisez le bouton Sortir. <a href=\"%s\">Exit Recovery Mode</a>"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:191
 msgid "Improvements for everyone"
 msgstr "Des améliorations pour tout le monde"
 
@@ -3741,8 +3741,9 @@ msgid "Cannot Install"
 msgstr "Impossible d’installer"
 
 #. translators: %s: WordPress version.
+#. translators: %s: WordPress version
 #: wp-admin/includes/update.php:305 wp-admin/install.php:238
-#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80
+#: wp-admin/update-core.php:82 wp-admin/upgrade.php:80 wp-admin/about.php:96
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -4626,7 +4627,7 @@ msgstr "Origine de la demande"
 
 #: wp-admin/erase-personal-data.php:66 wp-admin/export-personal-data.php:66
 msgid "Send Request"
-msgstr "Envoyer une demande"
+msgstr "Envoyer la demande de confirmation"
 
 #: wp-admin/erase-personal-data.php:64 wp-admin/export-personal-data.php:64
 msgid "Username or email address"
@@ -5846,7 +5847,7 @@ msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre p
 #. translators: %s: New email.
 #: wp-admin/user-edit.php:525
 msgid "There is a pending change of your email to %s."
-msgstr "Il y a une modification en cours de votre adresse de messagerie, en faveur de %s."
+msgstr "Il y a une modification de votre adresse e-mail en attente, en faveur de %s."
 
 #: wp-admin/user-edit.php:212
 msgid "Error while saving the new email address. Please try again."
@@ -6182,7 +6183,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Actuellement réglé sur : %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:279
+#: wp-admin/about.php:312
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "La <strong>version %s</strong> a corrigé un problème de sécurité."
 
@@ -6194,15 +6195,15 @@ msgstr "https://fr.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Illustration du profil"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:309
 msgid "Maintenance and Security Releases"
 msgstr "Mises à jour de maintenance et de sécurité"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:306
 msgid "Security Releases"
 msgstr "Mises à jour de sécurité"
 
-#: wp-admin/about.php:270
+#: wp-admin/about.php:303
 msgid "Maintenance Releases"
 msgstr "Mises à jour de maintenance"
 
@@ -9698,14 +9699,15 @@ msgstr "Saisissez l’adresse e-mail d’un compte existant sur votre réseau, a
 msgid "Show Toolbar when viewing site"
 msgstr "Afficher la barre d’outils lorsque vous visitez le site"
 
+#. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:302
+#: wp-admin/about.php:93 wp-admin/about.php:335
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Pour plus d’informations, consultez les <a href=\"%s\">notes de publication</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:296
+#: wp-admin/about.php:329
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "La <strong>version %1$s</strong> a corrigé quelques problèmes de sécurité et %2$s bug."
@@ -9713,14 +9715,14 @@ msgstr[1] "La <strong>version %1$s</strong> a corrigé quelques problèmes de s�
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:290
+#: wp-admin/about.php:323
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "La <strong>version %1$s</strong> a corrigé un problème de sécurité et %2$s bug."
 msgstr[1] "La <strong>version %1$s</strong> a corrigé un problème de sécurité et %2$s bugs."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:284
+#: wp-admin/about.php:81 wp-admin/about.php:317
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "La <strong>version %1$s</strong> a corrigé %2$s bug."
@@ -9731,19 +9733,19 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Vous voici dans votre tableau de bord WordPress ! Cet écran s’affiche à chaque connexion à votre site. Il vous donne accès à l’ensemble des fonctionnalités de gestion de WordPress. Vous pouvez obtenir de l’aide pour n’importe quel écran en cliquant sur l’onglet « Aide » présent en haut à droite de chaque écran."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:281
+#: wp-admin/about.php:314
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "La <strong>version %s</strong> a corrigé quelques problèmes de sécurité."
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:308
 msgid "Maintenance and Security Release"
 msgstr "Mise à jour de maintenance et de sécurité"
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:305
 msgid "Security Release"
 msgstr "Mise à jour de sécurité"
 
-#: wp-admin/about.php:269
+#: wp-admin/about.php:76 wp-admin/about.php:302
 msgid "Maintenance Release"
 msgstr "Mise à jour de maintenance"
 
@@ -10026,18 +10028,18 @@ msgstr "<strong>Modifier</strong> vous envoie sur l’écran de modification de 
 
 #: wp-admin/user-new.php:259
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
-msgstr "Parce qu’il s’agit d’une installation multisite, vous pouvez ajouter des comptes qui existent déjà sur le Réseau, en indiquant un identifiant ou une adresse de messagerie, et en assignant un rôle. Pour avoir plus d’options, telle que le choix du mot de passe, vous devez être Administrateur ou administratrice du Réseau, et utiliser les liens qui apparaissent au survol sous le nom de l’utilisateur ou de l’utilisatrice pour modifier son compte, depuis l’écran « Tous les comptes »."
+msgstr "Parce qu’il s’agit d’une installation multisite, vous pouvez ajouter des comptes qui existent déjà sur le Réseau, en indiquant un identifiant ou une adresse e-mail, et en assignant un rôle. Pour avoir plus d’options, telle que le choix du mot de passe, vous devez être Administrateur ou administratrice du Réseau, et utiliser les liens qui apparaissent au survol sous le nom de l’utilisateur ou de l’utilisatrice pour modifier son compte, depuis l’écran « Tous les comptes »."
 
 #. translators: %s: The current WordPress version number.
 #: wp-admin/about.php:58
 msgid "Welcome to WordPress %s."
 msgstr "Bienvenue sur WordPress %s."
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:292
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Aller sur l’accueil"
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:289
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Aller sur Tableau de bord &rarr; Mises à jour"
 
@@ -10045,7 +10047,7 @@ msgstr "Aller sur Tableau de bord &rarr; Mises à jour"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress est créé par une équipe de personnes passionnées, répartie sur toute la planète."
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:221
 msgid "For developers"
 msgstr "Pour les développeurs et les développeuses"
 
@@ -10733,7 +10735,7 @@ msgstr "Vous n’avez qu’un thème activé sur ce site actuellement. Veuillez 
 
 #: wp-admin/user-edit.php:442
 msgid "Super admin privileges cannot be removed because this user has the network admin email."
-msgstr "Les privilèges de super-admin ne peuvent pas être retirés, car ce compte est celui avec l’adresse de messagerie administrative du réseau."
+msgstr "Les privilèges de super-admin ne peuvent pas être retirés, car ce compte est celui avec l’adresse e-mail administrative du réseau."
 
 #. translators: %s: URL to Add Themes screen.
 #: wp-admin/includes/class-wp-themes-list-table.php:122
@@ -11683,7 +11685,7 @@ msgstr "Le compte a été ajouté à votre site."
 
 #: wp-admin/user-new.php:332
 msgid "Invitation email sent to user. A confirmation link must be clicked for them to be added to your site."
-msgstr "L’invitation a été envoyée à l’adresse de messagerie liée au compte. La personne concernée devra cliquer sur un lien de confirmation pour être ajoutée à votre site."
+msgstr "L’invitation a été envoyée à l’adresse e-mail liée au compte. La personne concernée devra cliquer sur un lien de confirmation pour être ajoutée à votre site."
 
 #: wp-admin/update-core.php:445
 msgid "The following plugins have new versions available. Check the ones you want to update and then click &#8220;Update Plugins&#8221;."
@@ -11873,7 +11875,7 @@ msgstr "Mises à jour de WordPress"
 msgid "Edit menu item"
 msgstr "Modifier un élément du menu"
 
-#: wp-admin/about.php:259 wp-admin/includes/network.php:148
+#: wp-admin/about.php:292 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Aller sur le tableau de bord"
 
@@ -12521,7 +12523,7 @@ msgstr "Mise en forme"
 
 #: wp-admin/options-writing.php:16
 msgid "Writing Settings"
-msgstr "Options d’écriture"
+msgstr "Réglages d’écriture"
 
 #: wp-admin/options-reading.php:67
 msgid "Encoding for pages and feeds"
@@ -12559,7 +12561,7 @@ msgstr "Une <a href=\"%s\">page statique</a> (choisir ci-dessous)"
 
 #: wp-admin/options-reading.php:16
 msgid "Reading Settings"
-msgstr "Options de lecture"
+msgstr "Réglages de lecture"
 
 #: wp-admin/options-privacy.php:115
 msgid "Privacy Settings"
@@ -12850,7 +12852,7 @@ msgstr "Un compte doit être inscrit et connecté pour publier des commentaires"
 
 #: wp-admin/options-discussion.php:66
 msgid "Comment author must fill out name and email"
-msgstr "L’auteur ou l’autrice d’un commentaire doit renseigner son nom et son adresse de messagerie"
+msgstr "L’auteur ou l’autrice d’un commentaire doit renseigner son nom et son adresse e-mail"
 
 #: wp-admin/options-discussion.php:64 wp-admin/options-discussion.php:65
 msgid "Other comment settings"
